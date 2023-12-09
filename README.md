@@ -14,6 +14,14 @@ You can play the game online by visiting https://robertbarachini.github.io/proje
 
 If you want to play it offline you can do so by downloading the `./src/site` folder and opening `index.html` in your browser.
 
+# Background
+
+Years ago when I was still in primary school (2010?) I wanted to create a website where you could play Tic-tac-toe. Since I didn't know much (anything) about JavaScript, the only logical conclusion was to hard code the game in HTML. After writing about 20 pages, it occurred to me that working like that was Sisyphean and so I abandoned the project to focus on creating cheesy graphics. Now that I know a little bit about programming and am, more importantly, even dumber, the time has come to bring the deranged project of the past to reality. Instead of writing each game state page by hand in Notepad, I let Python do the work for me. Thank you, Python.
+
+The generator plays the entire game and builds a tree of all possible games which is then read (and cached with numpy.save) by another script that builds HTML pages. Each unique game state is a new HTML page and future states are encoded in links. When you play the game by clicking the squares on the board you are traversing the game states as encoded by the program simply by using the HTTP protocol.
+
+Additionally, you could run a Minimax algorithm which reads the tree and returns optimal moves for each state which could then be similarly encoded in HTML links. This would make it possible to play against a perfect Tic-tac-toe AI. Each link would encode a future game state after the AI agent has “made a move”. There would be no real-time computation and yet the AI agent would be unbeatable.
+
 # Some stats
 
 Generated with `tictactoe.py`:
