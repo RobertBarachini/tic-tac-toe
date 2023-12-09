@@ -4,7 +4,7 @@
 	<img src="./tic-tac-toe.png" alt="Tic-tac-toe"/>
 </p>
 
-A state of the art Tic-tac-toe implementation in pure HTML.
+A state of the art Tic-tac-toe implementation in pure HTML (no JavaScript used).
 
 # About the project
 
