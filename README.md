@@ -8,7 +8,11 @@ A state of the art Tic-tac-toe implementation in pure HTML.
 
 # About the project
 
-This is a meme project that I created one afternoon after being fed up with DevOps at work. You can play the game by downloading the `./src/site` folder and opening `index.html` in your browser.
+This is a meme project that I created one afternoon after being fed up with DevOps at work.
+
+You can play the game online by visiting https://robertbarachini.github.io/projects/tic-tac-toe/
+
+If you want to play it offline you can do so by downloading the `./src/site` folder and opening `index.html` in your browser.
 
 # Some stats
 
