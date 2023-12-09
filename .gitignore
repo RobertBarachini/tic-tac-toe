@@ -1,0 +1,4 @@
+*.pyc
+*.npy
+all-states.npy
+src/site/generated/
